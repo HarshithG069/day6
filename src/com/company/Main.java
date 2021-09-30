@@ -1,8 +1,12 @@
 package com.company;
 
-public class Main {
+public class TicTacToeGame {
+        public static void main(String[] args) {
+            char[] board = new char[10];
+            for (int i = 1; i < 10; i++) {
+                board[i]=' ';
+            }
 
-    public static void main(String[] args) {
-	// write your code here
+        }
     }
 }
